@@ -1,0 +1,20 @@
+# Arquivos que o Claude Code deve ignorar neste repositório.
+
+# Checkpoints e caches do Jupyter / Python
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+*.pyo
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+
+# Saídas geradas ao validar/executar o notebook (não versionar)
+executed*.ipynb
+*.nbconvert.ipynb
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
